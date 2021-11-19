@@ -1,10 +1,8 @@
 package com.revature.jank_unit;
 
-import com.revature.jank_unit.util.AfterEach;
-import com.revature.jank_unit.util.Assert;
-import com.revature.jank_unit.util.BeforeEach;
-import com.revature.jank_unit.util.Test;
+import com.revature.jank_unit.util.*;
 
+@Describe
 public class FakeServiceTestSuite {
 
     private FakeService sut;
