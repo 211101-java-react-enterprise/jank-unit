@@ -86,7 +86,7 @@ public class JankUnitDriver {
         if (!failingTests.isEmpty()) {
             System.out.println("Failing tests:");
             failingTests.forEach(testMap -> {
-                testMap.forEach((key, value) -> System.out.println(key + "failed with cause: " + value));
+                testMap.forEach((key, value) -> System.out.println("\t-" + key + " failed with cause: " + value));
             });
         }
 
